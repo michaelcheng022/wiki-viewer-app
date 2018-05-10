@@ -54,7 +54,7 @@ $(document).ready(function() {
         you must use the below notation to ENUMERATE through the objects properties */
         for (var i in data) {
             //look at JQUERY documentation for .append() 
-            $('#results').hide().append("<a href ='" +pageurl+data[i].pageid+"' id = 'links'><div id = resultbox><h4>"+data[i].title+"</h4><p>"+data[i].extract+"</p></div></a>").fadeIn(300);
+            $('#results').hide().append("<a target ='_blank' href ='" +pageurl+data[i].pageid+"' id = 'links'><div id = resultbox><h4>"+data[i].title+"</h4><p>"+data[i].extract+"</p></div></a>").fadeIn(300);
         }
         
     }
