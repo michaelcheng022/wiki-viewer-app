@@ -26,9 +26,9 @@ $(document).ready(function() {
         //deals with spaces in input by replacing spaces with %20
         storage = storage.replace(/\s+/g, '%20'); 
 
-        var api = "http://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch="+storage+"&callback=?";
+        var api = "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch="+storage+"&callback=?";
         console.log(api);
-        console.log(api);
+        
         // calls api
         $.ajax({
             url:api,
