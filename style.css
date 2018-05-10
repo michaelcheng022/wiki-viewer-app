@@ -1,0 +1,67 @@
+#testbox {
+    background-color: aquamarine;
+}
+
+#header {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    padding-bottom: 20px;
+}
+
+#searchbox {
+    display: flex;
+    justify-content: center;
+    top: 200px;
+}
+
+#btnbox a {
+    text-decoration: none;
+    color: #000;
+}
+#btnbox {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.btns {
+    margin: 7px;
+    width: 100px;
+    color: #000;
+}
+
+#query {
+    border-radius: 13px;
+}
+
+#resultbox {
+    display: block;
+    background-color: lightgrey;
+    margin: 15px auto;
+    padding: 10px 25px;
+
+}
+
+#resultbox:hover {
+    border-left: 5px solid rgb(37, 67, 165);
+    margin-left: -5px;
+}
+
+#links {
+    text-decoration: none;
+    color: #000;
+}
+
+/* this code creates an animated search bar that expands when clicked */
+input[type=text] {
+    width: 230px;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 70%;
+    outline:none;
+}
