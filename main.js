@@ -48,7 +48,7 @@ $(document).ready(function() {
 
     function render(data) {
         
-        var pageurl = "http://en.wikipedia.org/?curid=";
+        var pageurl = "https://en.wikipedia.org/?curid=";
         
         /**NOTE** when going through an object it does not behave like an array where you can access the index through data[i]
         you must use the below notation to ENUMERATE through the objects properties */
