@@ -1,2 +1,2 @@
-#Wiki Viewer App
-poop de scoop
+#error
+app no longer functioning due to changes to the WIKIPEDIA API
