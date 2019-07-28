@@ -1,6 +1,9 @@
-## [Wiki Viewer](https://michaelcheng022.github.io/rbg-color-game/)
+## [Wiki Viewer](https://michaelcheng022.github.io/wiki-viewer-app/)
 
-Practice project that I made to learn how to manipulate the DOM. Game randomizes six colored squares and gives you an RGB color code. If the square you select matches the color code you win! Teaches user the RBG color system.
+Practice project that I made to learn how to use AJAX to work with an API specifically the Wikipedia API to fetch search results.
 
-This project helped me learn the basics of DOM manipulation as well as programming principles like functional and modualr programming.
-
+## Features
+* Fully responsive web page
+* User can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
+* User can click a button to see a random Wikipedia entry.
+* Demonstrates Advanced DOM Manipulation
